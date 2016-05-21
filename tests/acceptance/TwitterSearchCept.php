@@ -16,5 +16,5 @@ $I->expect('検索ページが開いている');
 $I->seeCurrentUrlMatches('~^/search~');
 $I->seeInTitle('#phpconfuk');
 
-$I->expect('結果に"プリンさんすごい！"を含んでいる');
-$I->see('プリンさんすごい！', '#timeline');
+$I->expect('結果に"PHPカンファレンス最高！"を含んでいる');
+$I->see('PHPカンファレンス最高！', '#timeline');

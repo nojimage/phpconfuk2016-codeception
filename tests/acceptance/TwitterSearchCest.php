@@ -35,7 +35,7 @@ class TwitterSearchCest
         $I->seeCurrentUrlMatches('~^/search~');
         $I->seeInTitle('#phpconfuk');
 
-        $I->expect('結果に"プリンさんすごい！"を含んでいる');
-        $I->see('プリンさんすごい！', '#timeline');
+        $I->expect('結果に"PHPカンファレンス最高！"を含んでいる');
+        $I->see('PHPカンファレンス最高！', '#timeline');
     }
 }
